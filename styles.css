@@ -6,7 +6,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-image: url(/proyecto2/img/pared-amarilla-clara.png);
     width: 80%;
     height: 8rem;
     margin: 0 auto;
@@ -38,6 +38,7 @@ footer{
 /* Botoneras */
 
 .botonHome{
+    width: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +57,11 @@ footer{
 }
 
 button{
-    background-color: white;
+    background-color: #5D7CCA;
     border-radius: 0.5rem;
     height: 2.5rem;
     width: 6rem;
-    border: thick double;
+    border: none;
     
 }
 
@@ -77,6 +78,7 @@ footer{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    background-image: url(/proyecto2/img/pared-amarilla-clara.png);
   
 }
 

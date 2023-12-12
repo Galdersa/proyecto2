@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Clear Yellow wall</caption>
+  <note>Clear Yellow wall</note>
+  <place/>
+  <categories>
+    <category value="yellow"/>
+    <category value="background"/>
+    <category value="wall"/>
+    <category value="texture"/>
+    <category value="color"/>
+    <category value="design"/>
+    <category value="wallpaper"/>
+    <category value="abstract"/>
+    <category value="backdrop"/>
+    <category value="vintage"/>
+    <category value="paint"/>
+    <category value="gold"/>
+    <category value="pattern"/>
+    <category value="concrete"/>
+    <category value="solid"/>
+    <category value="colorful"/>
+    <category value="building"/>
+    <category value="rough"/>
+    <category value="textured"/>
+    <category value="cement"/>
+    <category value="paper"/>
+    <category value="structure"/>
+    <category value="bright"/>
+    <category value="light"/>
+    <category value="sunny"/>
+    <category value="graphic"/>
+    <category value="closeup"/>
+    <category value="outdoor"/>
+    <category value="rich"/>
+    <category value="warm"/>
+    <category value="nobody"/>
+    <category value="architecture"/>
+    <category value="card"/>
+  </categories>
+</comment>

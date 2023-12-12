@@ -6,10 +6,13 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-image: url(/proyecto2/img/pared-amarilla-clara.png);
+    background-image: url(/proyecto2/img/pared-amarilla-clara.jpg);
+    background-size: cover;
     width: 80%;
     height: 8rem;
     margin: 0 auto;
+    
+    
 }
 
 header{
@@ -78,7 +81,11 @@ footer{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(/proyecto2/img/pared-amarilla-clara.png);
+    background-image: url(/proyecto2/img/pared-amarilla-clara.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   
 }
 

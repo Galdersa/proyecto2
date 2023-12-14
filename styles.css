@@ -923,60 +923,39 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**  CATEGORIAS DAVID**/
 .contenedor__categorias {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    align-items: center;
+    justify-content: center;
+    /* background-image: url(img/fondo_principal.jpeg); */
+}
+
+.categorias__grid {
+    display: grid;  
+    grid-template-columns: repeat(4, 20fr);
+    grid-template-rows: 80px 250px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.categorias__grid--texto {
+    text-align: center;
+    background-color: #F3CD06;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+.categorias__grid--imagen img{
+    width: 15rem;
+    height: 15rem;
     align-items: center;
     justify-content: center;
     /* background-image: url(img/fondo_principal.jpeg); */
 }
+
+    
+
 
 .categorias__grid {
     display: grid;  
@@ -1090,529 +1069,42 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sobre_nosotros {
+    height: 28rem;
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.mapa {
+    /* border: 2px solid rgb(141, 25, 25); */
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.direccion2 {
+    /* border: 2px solid rgb(29, 213, 22); */
+    width: 20%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.directiva {
+    /* border: 2px solid rgb(57, 59, 212); */
+    width: 20%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    }
 
 
 

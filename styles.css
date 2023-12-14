@@ -7,8 +7,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-image: url(/proyecto2/img/pared-amarilla-clara.jpg);
-    background-size: cover;
+    background-color: #F3CD06;
     width: 80%;
     height: 8rem;
     margin: 0 auto;
@@ -26,7 +25,7 @@ header{
 
 main{
     background-color: green;
-    height: 32rem;
+    height: 28rem;
     width: 80%;
     margin: 0 auto;
 
@@ -51,10 +50,18 @@ footer{
 
 .botonHome img{
     display: flex;
-    width: 6rem;
+    width: 8rem;
     padding: 2rem;
+    /* border: solid; */
 }
 
+.logoNav{
+    display:flex;
+    width: 18rem;
+    padding: 2rem;
+   /*  border: solid;    */  
+
+}
 
 .barraNavegacion{
     width: 40rem;
@@ -87,10 +94,7 @@ footer{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(/proyecto2/img/pared-amarilla-clara.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F3CD06;
     
   
 }
@@ -134,5 +138,3 @@ footer{
     font-weight: bold;
 
 }
-
-

@@ -35,26 +35,21 @@ main{
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
-    height: 28rem;
-    border: 2px solid rgb(17, 18, 17);    
+    height: 28rem; 
 }
 
 .foto_contacto {
-    border: 2px solid rgb(27, 72, 171);
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .foto_contacto img {
     scale: 75%;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 .form_contacto {
     padding-top: 5rem;    
-    border: 2px solid rgb(221, 18, 204);
 }
 
 footer{
@@ -164,3 +159,326 @@ footer{
     font-weight: bold;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sobre_nosotros {
+    height: 28rem;
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.mapa {
+    /* border: 2px solid rgb(141, 25, 25); */
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.direccion2 {
+    /* border: 2px solid rgb(29, 213, 22); */
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.directiva {
+    /* border: 2px solid rgb(57, 59, 212); */
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    }

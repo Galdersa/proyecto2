@@ -4,9 +4,9 @@
 
 ### Pagina de Remo para la localidad de Orio
 
-### Realizada por:
+### Realizada por:  
 
-**Galder Suarez**
-**Anna Iashvili**
-**David Altamirano**
-**Elías Riquelme**
+**Galder Suarez**  
+**Anna Iashvili**  
+**David Altamirano**  
+**Elías Riquelme**  

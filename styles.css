@@ -1,0 +1,167 @@
+body{
+    margin: 0 auto;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3CD06;
+    width: 80%;
+    height: 8rem;
+    margin: 0 auto;
+    
+    
+}
+
+header{
+    background-color: red;
+    width: 80%;
+    height: 12rem;
+    margin: 0 auto;
+
+}
+
+main{
+    background-color: green;
+    height: 28rem;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border: 2px solid chartreuse;
+    
+}
+
+.foto_contacto {
+    border: 2px solid rgb(27, 72, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foto_contacto img {
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    
+}
+
+.form_contacto {
+    border: 2px solid rgb(221, 18, 204);
+}
+
+footer{
+    background-color: brown;
+    width: 80%;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+/* Botoneras */
+
+.botonHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid ; */
+
+}
+
+.botonHome img{
+    display: flex;
+    width: 8rem;
+    padding: 2rem;
+    /* border: solid; */
+}
+
+.logoNav{
+    display:flex;
+    width: 18rem;
+    padding: 2rem;
+   /*  border: solid;    */  
+
+}
+
+.barraNavegacion{
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /*  border: solid; */
+    
+}
+
+button{
+    background-color: #5D7CCA;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 6rem;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: aquamarine;
+    transition: all 500ms;
+    
+}
+
+
+
+footer{
+    /* border: solid yellow; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F3CD06;
+    
+  
+}
+
+.redesSociales{
+    width: 100%;
+    height: 2rem;
+   /*  border: solid; */
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+.redesSociales div a i{
+    
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    font-size:xx-large;
+}
+
+
+.siguenos{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+}
+
+.direccion{
+    width: 100%;
+    /* border: solid ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    font-style:italic;
+    font-weight: bold;
+
+}

@@ -13,6 +13,7 @@
 
         <div class="logoNav"><img src="/proyecto2/img/logo_orio2.png" alt=""></div>
 
+
         <div class="barraNavegacion">
             <div><a href="/proyecto2/historia.html"><button>HISTORIA</button></a></div>
             <div><a href="/proyecto2/noticias.html"><button>NOTICIAS</button></a></div>
@@ -28,7 +29,29 @@
     </header>
 
     <main>
+        <div class="contacto">
+            <div class="foto_contacto">
+                <img src="img/trainera_chicas.jpg" alt="Fotografía de trainera femenina celebrando" />
+            </div>
 
+            <div class="form_contacto">
+                <form action="recoger_formulario" method="get"></form>
+                <!-- <p>Nombre</p> -->
+                <label for="name"> <input id="name" type="text" placeholder="Nombre"></label>
+                <br><br>
+                <!-- <p>Correo electrónico</p> -->
+                <label for="mail"> <input id="mail" type="email" placeholder="email"></label>
+                <br><br>
+                <!-- <p>Número de teléfono</p> -->
+                <label for="phone"> <input id="phone" type="tel" placeholder="Tlf."></label>
+                <br><br>
+                <!-- <p>Mensaje</p> -->
+                <textarea name="message" id="message" cols="50" rows="8" placeholder="Mensaje"></textarea>
+                <br><br>
+                <button class="Boton_enviar">Enviar</button>
+            </div>   
+
+        </div>
     </main>
 
     <footer>

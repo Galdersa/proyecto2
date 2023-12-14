@@ -34,27 +34,27 @@ main{
 .contacto {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    border: 2px solid chartreuse;
-    
+    justify-content:flex-start;
+    border: 2px solid chartreuse;    
 }
 
 .foto_contacto {
     border: 2px solid rgb(27, 72, 171);
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     
 }
 
 .foto_contacto img {
-    width: 75%;
-    height: 75%;
+    scale: 75%;
     border-radius: 10px;
     
 }
 
 .form_contacto {
+    padding-top: 7rem;
+    
     border: 2px solid rgb(221, 18, 204);
 }
 

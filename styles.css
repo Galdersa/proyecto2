@@ -24,7 +24,8 @@ header{
 }
 
 main{
-    background-color: green;
+    /* ackground-color: green; */
+    background-image: url(img/fondo_principal.jpeg);
     height: 28rem;
     width: 80%;
     margin: 0 auto;
@@ -35,21 +36,26 @@ main{
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
-    height: 28rem; 
+    height: 28rem;
+    border: 2px solid rgb(17, 18, 17);    
 }
 
 .foto_contacto {
+    border: 2px solid rgb(27, 72, 171);
     display: flex;
-    align-items: center;    
+    align-items: center;
+    
 }
 
 .foto_contacto img {
     scale: 75%;
-    border-radius: 10px;    
+    border-radius: 10px;
+    
 }
 
 .form_contacto {
     padding-top: 5rem;    
+    border: 2px solid rgb(221, 18, 204);
 }
 
 footer{
@@ -343,142 +349,31 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sobre_nosotros {
-    height: 28rem;
-    /* border: 2px solid gainsboro; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: space-around;
-}
-
-.mapa {
-    /* border: 2px solid rgb(141, 25, 25); */
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
-}
-
-.direccion2 {
-    /* border: 2px solid rgb(29, 213, 22); */
-    font-size: 1.5rem;
+/**  CATEGORIAS DAVID**/
+.contenedor__categorias {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
+    /* background-image: url(img/fondo_principal.jpeg); */
 }
 
-.directiva {
-    /* border: 2px solid rgb(57, 59, 212); */
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    }
+.categorias__grid {
+    display: grid;  
+    grid-template-columns: repeat(4, 20fr);
+    grid-template-rows: 80px 250px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.categorias__grid--texto {
+    text-align: center;
+    background-color: #F3CD06;
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+
+.categorias__grid--imagen img{
+    width: 15rem;
+    height: 15rem;
+}

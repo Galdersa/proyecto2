@@ -925,9 +925,12 @@ footer{
 
 
 /**  CATEGORIAS DAVID**/
+
+/* CATEGORIA FORMATIVA */
 .contenedor__categorias {
     display: flex;
-    flex-direction: column;    align-items: center;
+    flex-direction: column;    
+    align-items: center;
     justify-content: center;
     /* background-image: url(img/fondo_principal.jpeg); */
 }
@@ -955,32 +958,39 @@ footer{
     /* background-image: url(img/fondo_principal.jpeg); */
 }
 
-    
+
+/* CATEGORIA LIGA */
 
 
-.categorias__grid {
+.categorias__grid--liga-texto {
     display: grid;  
-    grid-template-columns: repeat(4, 20fr);
-    grid-template-rows: 80px 250px;
+    grid-template-columns: repeat(2, 20fr);
     column-gap: 2rem;
     row-gap: 1rem;
 }
 
-.categorias__grid--texto {
+.categorias__grid--texto-liga{
     text-align: center;
     background-color: #F3CD06;
     padding-top: 2rem;
     text-transform: uppercase;
+    padding-bottom: 1rem;
 }
 
-.categorias__grid--imagen img{
+
+.categorias__grid--liga-imagen{
+    display: grid;  
+    grid-template-columns: repeat(4, 20fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.categorias__grid--imagen-liga{
     width: 15rem;
-    height: 15rem;
+    height: 15rem;/* 
+    align-items: center;
+    justify-content: center; */
 }
-
-
-
-
 
 
 

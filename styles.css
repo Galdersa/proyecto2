@@ -30,6 +30,7 @@ header{
 main{
     /* ackground-color: green; */
     background-image: url(img/fondo_principal.jpeg);
+    background-size: cover;
     height: 28rem;
     width: 100%;
     margin: 0 auto;
@@ -1069,7 +1070,6 @@ footer{
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -1593,7 +1593,7 @@ footer{
 
 
 
-=======
+
 .sobre_nosotros {
     height: 28rem;
     /* border: 2px solid gainsboro; */
@@ -1630,7 +1630,7 @@ footer{
     justify-content: center;
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
     }
->>>>>>> 9f8b7f6 (correccion errores)
+
 
 
 

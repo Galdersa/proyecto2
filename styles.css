@@ -25,10 +25,10 @@ header{
 }
 
 main{
-    /* ackground-color: green; */
+    /* background-color: green; */
     background-image: url(img/fondo_principal.jpeg);
     background-size: cover;
-    height: 28rem;
+    min-height: 28rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -36,13 +36,13 @@ main{
 .contacto {
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
+    justify-content:space-evenly;
     height: 28rem;
-    border: 2px solid rgb(17, 18, 17);    
+    /* border: 2px solid rgb(17, 18, 17); */    
 }
 
 .foto_contacto {
-    border: 2px solid rgb(27, 72, 171);
+    /* border: 2px solid rgb(27, 72, 171); */
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@ main{
 
 .form_contacto {
     padding-top: 5rem;    
-    border: 2px solid rgb(221, 18, 204);
+    /* border: 2px solid rgb(221, 18, 204); */
 }
 
 footer{
@@ -105,7 +105,9 @@ button{
 
 button:hover{
     background-color: aquamarine;
+    transform:scale(1.25);
     transition: all 500ms;
+
 }
 
 footer{
@@ -295,8 +297,36 @@ footer{
 
 
 
+/* ********************ANNA****************** */
+.cartel img{
+    display: flex;
+    width: 20rem;
+    height: 27rem;
+    position: relative;
+    top: 1.2rem;
+    opacity: 50%;
+    
 
 
+}
+.historia {
+    position: absolute;
+    top: 21rem;
+    bottom: 11rem;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: solid;
+    
+   
+}
+
+.mainHistoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
@@ -1680,7 +1710,8 @@ footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
 .directiva {
@@ -1691,8 +1722,26 @@ footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
+
+.botonHome:hover {
+    transform:rotate(360deg);
+    transition-duration: 1s;
+}
+
+.foto_contacto img:hover {
+    transform: scale(117%);
+    transition-duration: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.350) 4px 4px;
+}
+
+.redesSociales div a i:hover{
+    transform: scale(150%);
+    transition-duration: 300ms;
+}
+
 
 
 

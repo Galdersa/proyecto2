@@ -49,7 +49,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    height: 28rem;
+    min-height: 28rem;
     /* border: 2px solid rgb(17, 18, 17); */    
 }
 
@@ -1700,7 +1700,7 @@ footer{
 
 
 .sobre_nosotros {
-    height: 28rem;
+    min-height: 28rem;
     /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;

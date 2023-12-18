@@ -25,10 +25,10 @@ header{
 }
 
 main{
-    /* ackground-color: green; */
+    /* background-color: green; */
     background-image: url(img/fondo_principal.jpeg);
     background-size: cover;
-    height: 28rem;
+    min-height: 28rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -105,7 +105,9 @@ button{
 
 button:hover{
     background-color: aquamarine;
+    transform:scale(1.25);
     transition: all 500ms;
+
 }
 
 footer{
@@ -1668,6 +1670,22 @@ footer{
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
     /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
+
+.botonHome:hover {
+    transform:rotate(360deg);
+    transition-duration: 1s;
+}
+
+.foto_contacto img:hover {
+    transform: scale(117%);
+    transition-duration: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.350) 4px 4px;
+}
+
+.redesSociales div a i:hover{
+    transform: scale(150%);
+    transition-duration: 300ms;
+}
 
 
 

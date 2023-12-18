@@ -247,8 +247,36 @@ footer{
 
 
 
+/* ********************ANNA****************** */
+.cartel img{
+    display: flex;
+    width: 20rem;
+    height: 27rem;
+    position: relative;
+    top: 1.2rem;
+    opacity: 50%;
+    
 
 
+}
+.historia {
+    position: absolute;
+    top: 21rem;
+    bottom: 11rem;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: solid;
+    
+   
+}
+
+.mainHistoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 

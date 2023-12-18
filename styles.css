@@ -863,7 +863,76 @@ footer{
       }
 
       */
-        
+
+
+    /**  CATEGORIAS DAVID**/
+
+/* CATEGORIA FORMATIVA */
+.contenedor__categorias {
+    /* display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center; */
+    /* background-image: url(img/fondo_principal.jpeg); */
+}
+
+.categorias__grid {
+    width: 100%;
+    display: grid;  
+    grid-template-columns: none; 
+    grid-template-rows: repeat(8, 1fr);
+    /* background-color: red;
+    grid-template-rows: 80px 250px;
+    column-gap: 2rem;
+    row-gap: 1rem;  */
+}
+
+.cat-uno {
+    grid-row: 1 / 2;
+}
+
+.imag-uno {
+    grid-row: 2 / 3
+}
+
+.cat-dos{
+    grid-row: 3 / 4;
+}
+
+.imag-dos {
+    grid-row: 4 / 5;
+}
+
+.cat-tres {
+    grid-row: 5 / 6;
+}
+
+.imag-tres {
+    grid-row: 6 / 7;
+}
+
+.cat-cuatro {
+    grid-row: 7 / 8;
+}
+
+.imag-cuatro {
+    grid-row: 8 / 9;
+}
+
+.categorias__grid--texto {
+    /* text-align: center;
+    background-color: #F3CD06;
+    padding-top: 2rem;
+    text-transform: uppercase; */
+}
+
+.categorias__grid--imagen img{
+    /* width: 15rem;
+    height: 15rem;
+    align-items: center;
+    justify-content: center; */
+}
+
 
 }
 
@@ -1057,11 +1126,16 @@ footer{
 /* CATEGORIA LIGA */
 
 
+.contenedor__categorias h1{
+    padding: 0;
+}
+
 .categorias_flex--liga-texto {
     width: 100%;
     display: flex;  
     justify-content: space-evenly;
     margin: .5rem auto;
+    height: 7rem;
 }
 
 .categorias__grid--liga-imagen {
@@ -1080,7 +1154,13 @@ footer{
 
 .categorias__flex--texto-liga {
     background-color: #F3CD06;
+    margin: auto;
     padding: 1rem;
+    text-align: center;
+    width: 15%;
+    height: 4rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
 }
 
 .categorias__grid--liga-imagen img{

@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
 * {
     font-family: 'Titillium Web', sans-serif;
 }
@@ -41,7 +49,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    height: 28rem;
+    min-height: 28rem;
     /* border: 2px solid rgb(17, 18, 17); */    
 }
 
@@ -1102,36 +1110,36 @@ footer{
 /* CATEGORIA LIGA */
 
 
-.categorias__grid--liga-texto {
-    display: grid;  
-    grid-template-columns: repeat(2, 20fr);
-    column-gap: 2rem;
-    row-gap: 1rem;
+.categorias_flex--liga-texto {
+    width: 100%;
+    display: flex;  
+    justify-content: space-evenly;
+    margin: .5rem auto;
 }
 
-.categorias__grid--texto-liga{
+.categorias__grid--liga-imagen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 1rem;
+}
+
+.categoria__grid--lista {
+    color: black;
+    line-height: normal;
     text-align: center;
+}
+
+
+.categorias__flex--texto-liga {
     background-color: #F3CD06;
-    padding-top: 2rem;
-    text-transform: uppercase;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
-
-.categorias__grid--liga-imagen{
-    display: grid;  
-    grid-template-columns: repeat(4, 20fr);
-    column-gap: 2rem;
-    row-gap: 1rem;
+.categorias__grid--liga-imagen img{
+    width: 20rem;
+    height: 18rem;
 }
-
-.categorias__grid--imagen-liga{
-    width: 15rem;
-    height: 15rem;/* 
-    align-items: center;
-    justify-content: center; */
-}
-
 
 
 
@@ -1745,7 +1753,7 @@ footer{
 
 
 .sobre_nosotros {
-    height: 28rem;
+    min-height: 28rem;
     /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;

@@ -36,13 +36,13 @@ main{
 .contacto {
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
+    justify-content:space-evenly;
     height: 28rem;
-    border: 2px solid rgb(17, 18, 17);    
+    /* border: 2px solid rgb(17, 18, 17); */    
 }
 
 .foto_contacto {
-    border: 2px solid rgb(27, 72, 171);
+    /* border: 2px solid rgb(27, 72, 171); */
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@ main{
 
 .form_contacto {
     padding-top: 5rem;    
-    border: 2px solid rgb(221, 18, 204);
+    /* border: 2px solid rgb(221, 18, 204); */
 }
 
 footer{
@@ -1625,7 +1625,8 @@ footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
 .directiva {
@@ -1636,8 +1637,10 @@ footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
+
 
 
 

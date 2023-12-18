@@ -6,10 +6,13 @@ html {
   }
   
 
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 body{
     margin: 0 auto;
-    
-
+    overflow-x: hidden;
 }
 
 nav{
@@ -19,56 +22,51 @@ nav{
     width: 100%;
     height: 8rem;
     margin: 0 auto;
-    
-    
 }
 
-.hamburguesa-btn{
+/* .hamburguesa-btn{
     display: none;
 }
-
+ */
 header{
     background-color: white;
     width: 100%;
     height: 12rem;
     margin: 0 auto;
-
+    /* border: solid; */
 }
 
 main{
-    /* ackground-color: green; */
+    /* background-color: green; */
     background-image: url(img/fondo_principal.jpeg);
     background-size: cover;
-    height: 28rem;
+    min-height: 28rem;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .contacto {
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
+    justify-content:space-evenly;
     height: 28rem;
-    border: 2px solid rgb(17, 18, 17);    
+    /* border: 2px solid rgb(17, 18, 17); */    
 }
 
 .foto_contacto {
-    border: 2px solid rgb(27, 72, 171);
+    /* border: 2px solid rgb(27, 72, 171); */
     display: flex;
     align-items: center;
-    
 }
 
 .foto_contacto img {
     scale: 75%;
     border-radius: 10px;
-    
 }
 
 .form_contacto {
     padding-top: 5rem;    
-    border: 2px solid rgb(221, 18, 204);
+    /* border: 2px solid rgb(221, 18, 204); */
 }
 
 footer{
@@ -85,7 +83,6 @@ footer{
     justify-content: center;
     align-items: center;
     /* border: solid ; */
-
 }
 
 .botonHome img{
@@ -100,7 +97,6 @@ footer{
     width: 18rem;
     padding: 2rem;
    /*  border: solid;    */  
-
 }
 
 .barraNavegacion{
@@ -109,7 +105,6 @@ footer{
     justify-content: space-around;
     align-items: center;
    /*  border: solid; */
-    
 }
 
 button{
@@ -118,25 +113,21 @@ button{
     height: 2.5rem;
     width: 6rem;
     border: none;
-    
 }
 
 button:hover{
     background-color: aquamarine;
+    transform:scale(1.25);
     transition: all 500ms;
-    
+
 }
-
-
 
 footer{
     /* border: solid yellow; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #F3CD06;
-    
-  
+    background-color: #F3CD06; 
 }
 
 .redesSociales{
@@ -145,20 +136,15 @@ footer{
     /* border: solid; */
     display: flex;
     justify-content:space-around;
-    margin: 0 1rem 0 1rem
-
-    
-    
+    margin: 0 1rem 0 1rem   
 }
 
 .redesSociales div a i{
-    
     width: 2rem;
     height: 2rem;
     color: black;
-    font-size:xx-large;
+    font-size:2.5rem;
 }
-
 
 .siguenos{
     width: 100%;
@@ -178,46 +164,59 @@ footer{
     height: 2.5rem;
     font-style:italic;
     font-weight:lighter;
-
 }
 
 .directivos{
     /* border: solid blue; */
     align-items: start;
-    margin-top: none;
+    margin-top: 0;
     padding-top: 0;
-
 }
 
+.iconosFooter{
+    display: flex;
+    /* border: solid; */
+    width: 30rem;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* 
 .hamburguesa, ul, input, label, li {
     display: none;
 }
-
+ */
 .carrusel div{
     display: flex;
     width: 150rem;
     animation: carrusel 9s linear infinite;
     white-space: nowrap;
-    height: 13rem
-    
+    height: 12rem
 }
 
 .carrusel{    
     background-color: none;
-   
 }
 
 .carrusel span{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
 }
 
 .carrusel img{
     border-radius: 0.2rem;
-
 }
+
+.botonIdiomas{
+    display: flex;
+    justify-content: end;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 
 @keyframes carrusel {
     0% {
@@ -227,6 +226,62 @@ footer{
     100% {
         transform: translateX(-50%);
     }
+
+}
+.mainIndex{
+    display: flex;
+    height: 26rem;
+    justify-content: space-around;
+   /*  border: solid blue; */
+}
+
+.imagenIndex{
+    display: flex;
+    justify-content: center;
+   /*  border: solid; */
+    width: 50%;
+
+}
+
+.imagenIndex img{
+    /* border-radius: 1rem; */
+    height: 26rem;
+    width: auto;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.textoIndexI{
+    
+    /* border: solid yellow; */
+    width: 25%;
+    padding: 0 1rem 0 1rem;
+    
+}
+
+.textoIndexD{
+   /*  border: solid green; */
+    width: 25%;
+    padding: 0 1rem 0 1rem;
+   
+}
+
+.textoIndexD p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*  border: solid; */
+    height: 24rem;
+    line-height: 2rem;
+}
+
+.textoIndexI p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*  border: solid; */
+    height: 24rem;
+    line-height: 2rem;
 }
 
 
@@ -254,7 +309,36 @@ footer{
 
 
 
+/* ********************ANNA****************** */
+.cartel img{
+    display: flex;
+    width: 20rem;
+    height: 27rem;
+    position: relative;
+    top: 1.2rem;
+    opacity: 50%;
+    
 
+
+}
+.historia {
+    position: absolute;
+    top: 21rem;
+    bottom: 11rem;
+    font-family: arial;
+   /*  font-weight: bold; */
+    font-size: 1.1rem;
+    /* border: solid; */
+    
+   
+}
+
+.mainHistoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
@@ -706,6 +790,7 @@ footer{
         display: none;
     }
 
+
     .logoNav{
         display: none;
     }
@@ -732,11 +817,11 @@ footer{
         display: none;
     }
 
-    .hamburguesa{
+   /*  .hamburguesa{
         width: 4rem;
         height: 4rem;
         display: flex;
-       /*  border: solid; */
+       /*  border: solid; 
         justify-content: center;
         padding-top: 2rem;}
         
@@ -748,7 +833,7 @@ footer{
     input:checked  ~ ul{
         display: block;
         border-top: 4rem;
-        /* border: solid; */
+        /* border: solid; 
         
       }
     input {
@@ -776,6 +861,8 @@ footer{
         list-style: none;
         border-bottom: 1px solid grey;
       }
+
+      */
         
 
 }
@@ -1635,7 +1722,8 @@ footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
 .directiva {
@@ -1646,8 +1734,26 @@ footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
+
+.botonHome:hover {
+    transform:rotate(360deg);
+    transition-duration: 1s;
+}
+
+.foto_contacto img:hover {
+    transform: scale(117%);
+    transition-duration: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.350) 4px 4px;
+}
+
+.redesSociales div a i:hover{
+    transform: scale(150%);
+    transition-duration: 300ms;
+}
+
 
 
 

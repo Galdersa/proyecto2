@@ -311,70 +311,180 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ********************ANNA****************** */
+.mainhistoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /*  border: 0.5rem solid black;
+    border-radius: 2rem; */
+    height: 27rem;
+    width: 95%;
+}
 .cartel img{
     display: flex;
     width: 20rem;
     height: 27rem;
     position: relative;
-    top: 1.2rem;
+    top: 0.5rem;
     opacity: 50%;
-    
-
-
 }
 .historia {
     position: absolute;
-    top: 21rem;
+
+}
+.historia-text {
+    
+    top: 24rem;
     bottom: 11rem;
     font-family: arial;
-   /*  font-weight: bold; */
+    /* font-weight: bold; */
     font-size: 1.1rem;
-    /* border: solid; */
-    
-   
+    padding-left: 2rem;
+}
+.historia-titulo {
+    padding-left: 3rem;
+}
+.orio {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: rgb(62, 4, 115);
+
 }
 
-.mainHistoria{
+/* noticias */
+/* section {border: 0.3rem solid black;} */
+.noticias {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 28rem;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    /* height: 28rem; */
+    margin-top: auto;
+    margin-bottom: 20rem;
+}
+.imgjoseba {
     justify-content: center;
     align-items: center;
     
 }
+.imgjoseba img{
+    height: 16rem;
+    
+}
+.textjoseba {
+    font-size: 1.2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.two {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;  
+}
+.imgtaldea {
+    justify-content: center;
+    align-items: center;
+}
+.imgtaldea img{
+    height: 26rem;
+}
+.texttaldea {
+    font-size: 1.2rem;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.imgmikel {
+    justify-content: center;
+    align-items: center;  
+}
+.imgmikel img{
+    height: 12rem;
+}
+.textmikel {
+    font-size: 1.2rem;
+}
+.textarc {
+    font-size: 1.2rem;
+    line-height: 0.1rem;
+}
+.imgarc {
+    justify-content: center;
+    align-items: center;  
+}
+.imgarc img {
+    height: 11rem;
+}
+.four {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;   
+}
+.imgkae {
+    justify-content: center;
+    align-items: center; 
+}
+.imgkae img {
+    height: 18rem;
+}
+.textkae {
+    font-size: 1.2rem;
+}
 
 
 

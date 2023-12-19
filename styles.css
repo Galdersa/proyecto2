@@ -970,6 +970,60 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
 
     .direccion{
@@ -980,64 +1034,29 @@ footer{
         display: none;
     }
 
-   /*  .hamburguesa{
-        width: 4rem;
-        height: 4rem;
-        display: flex;
-       /*  border: solid; 
-        justify-content: center;
-        padding-top: 2rem;}
-        
+   .imagenIndex img{
+    
+    height: 10rem;
+   }
 
-    ul{
-        display: none;
-      }
-      
-    input:checked  ~ ul{
-        display: block;
-        border-top: 4rem;
-        /* border: solid; 
-        
-      }
-    input {
-        display: none;
-       }
-
-    label {
-        box-sizing: border-box;
-        display: inline-block;
-        border: 1px solid black;
-        border-radius: 5px;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-weight: bold;
-        text-align: center;
-        user-select: none;
-      }
-
-      li {
-        display: block;
-        background: lightgrey;
-        margin: 0;
-        padding: 10px;
-        list-style: none;
-        border-bottom: 1px solid grey;
-      }
-
-      */
-
-
+   .textoIndexI{
+    display: flex;
+    
+   }
+.mainIndex{
+    
+    justify-content: space-around;
+}
     /**  CATEGORIAS DAVID**/
 
 /* CATEGORIA FORMATIVA */
-.contenedor__categorias {
+/* .contenedor__categorias { */
     /* display: flex;
     flex-direction: column;    
     align-items: center;
     justify-content: center; */
     /* background-image: url(img/fondo_principal.jpeg); */
-}
+/* } */
 
 .categorias__grid {
     width: 100%;
@@ -1082,20 +1101,20 @@ footer{
     grid-row: 8 / 9;
 }
 
-.categorias__grid--texto {
-    /* text-align: center;
+/* .categorias__grid--texto {
+    text-align: center;
     background-color: #F3CD06;
     padding-top: 2rem;
-    text-transform: uppercase; */
+    text-transform: uppercase;
 }
 
 .categorias__grid--imagen img{
-    /* width: 15rem;
+    width: 15rem;
     height: 15rem;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
-
+ */
 
 }
 

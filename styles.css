@@ -1031,7 +1031,7 @@ footer{
     /**  CATEGORIAS DAVID**/
 
 /* CATEGORIA FORMATIVA */
-.contenedor__categorias {
+/* .contenedor__categorias { */
     /* display: flex;
     flex-direction: column;    
     align-items: center;
@@ -1082,19 +1082,19 @@ footer{
     grid-row: 8 / 9;
 }
 
-.categorias__grid--texto {
+/* .categorias__grid--texto { */
     /* text-align: center;
     background-color: #F3CD06;
     padding-top: 2rem;
     text-transform: uppercase; */
-}
+/* } */
 
-.categorias__grid--imagen img{
+/* .categorias__grid--imagen img{ */
     /* width: 15rem;
     height: 15rem;
     align-items: center;
     justify-content: center; */
-}
+/* } */
 
 
 }

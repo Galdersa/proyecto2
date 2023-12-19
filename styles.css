@@ -47,9 +47,10 @@ main{
 
 .contacto {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
-    min-height: 28rem;
+    min-height: 30rem;
     /* border: 2px solid rgb(17, 18, 17); */    
 }
 
@@ -433,7 +434,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 28rem;
+    min-height: 28rem;
 }
 .one {
     display: flex;
@@ -996,7 +997,22 @@ footer{
         height: 24rem;
         line-height: 2rem;
     }
-   
+   /**********GALDER*********/
+   .foto_contacto img {
+        scale: 55%;
+   }
+   .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+   .foto_contacto {
+
+   }
+   .form_contacto {
+    
+    padding-bottom: 1rem;
+   }
 }
 
 
@@ -2000,7 +2016,7 @@ footer{
 
 
 .sobre_nosotros {
-    min-height: 28rem;
+    min-height: 30rem;
     /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;

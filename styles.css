@@ -1102,78 +1102,60 @@ footer{
     
     justify-content: space-around;
 }
+
     /**  CATEGORIAS DAVID**/
 
-/* CATEGORIA FORMATIVA */
+    /* CATEGORIA FORMATIVA */
 
-.categorias__grid {
-    /* width: 100%; */
-    display: grid;  
-    grid-template-columns: none; 
-    grid-template-rows: repeat(8, 1fr);
-    /* background-color: red;
-    grid-template-rows: 80px 250px;
-    column-gap: 2rem;
-    row-gap: 1rem;  */
-}
+    .categorias__grid {
+        display: grid;  
+        grid-template-columns: repeat(4, 1fr);; 
+        grid-template-rows: repeat(8, 1fr);
+    }
 
-.cat-uno {
-    grid-row: 1 / 2;
-    grid-column: 1 / 5;
-}
+    .cat-uno {
+        grid-row: 1 / 2;
+        grid-column: 1 / 5;
+    }
 
-.imag-uno {
-    grid-row: 2 / 3;
-    grid-column: 1 / 5;
-}
+    .imag-uno {
+        grid-row: 2 / 3;
+        grid-column: 1 / 5;
+    }
 
-.cat-dos{
-    grid-row: 3 / 4;
-    grid-column: 1 / 5;
-}
+    .cat-dos{
+        grid-row: 3 / 4;
+        grid-column: 1 / 5;
+    }
 
-.imag-dos {
-    grid-row: 4 / 5;
-    grid-column: 1 / 5;
-}
+    .imag-dos {
+        grid-row: 4 / 5;
+        grid-column: 1 / 5;
+    }
 
-.cat-tres {
-    grid-row: 5 / 6;
-    grid-column: 1 / 5;
-}
+    .cat-tres {
+        grid-row: 5 / 6;
+        grid-column: 1 / 5;
+    }
 
-.imag-tres {
-    grid-row: 6 / 7;
-    grid-column: 1 / 5;
-}
+    .imag-tres {
+        grid-row: 6 / 7;
+        grid-column: 1 / 5;
+    }
 
-.cat-cuatro {
-    grid-row: 7 / 8;
-    grid-column: 1 / 5;
-}
+    .cat-cuatro {
+        grid-row: 7 / 8;
+        grid-column: 1 / 5;
+    }
 
-.imag-cuatro {
-    grid-row: 8 / 9;
-    grid-column: 2 / 4;
-}
+    .imag-cuatro {
+        grid-row: 8 / 9;
+        grid-column: 2 / 4;
+    }
 
-/* .categorias__grid--texto {
-    text-align: center;
-    background-color: #F3CD06;
-    padding-top: 2rem;
-    text-transform: uppercase;
-}
-
-.categorias__grid--imagen img{
-    width: 15rem;
-    height: 15rem;
-    align-items: center;
-    justify-content: center;
-}
- */
-
-/* *************boton ham**************** */
-
+    .categorias__grid--imagen img{
+        width: 100%;
+    }
 
 }
 

@@ -2059,10 +2059,10 @@ footer{
     justify-content: space-around;
 }
 
-.mapa {
-    /* border: 2px solid rgb(141, 25, 25); */
-    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
-}
+/* .mapa {
+    border: 2px solid rgb(141, 25, 25);
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+} */
 
 .direccion2 {
     /* border: 2px solid rgb(29, 213, 22); */
@@ -2104,6 +2104,23 @@ footer{
 .redesSociales div a i:hover{
     transform: scale(150%);
     transition-duration: 300ms;
+}
+
+input#name {
+    border-radius: 5px;
+    border: none;
+}
+input#mail {
+    border-radius: 5px;
+    border: none;
+}
+input#phone {
+    border-radius: 5px;
+    border: none;
+}
+textarea#message {
+    border-radius: 5px;
+    border: none;
 }
 
 

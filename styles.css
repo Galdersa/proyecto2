@@ -400,92 +400,49 @@ footer{
     justify-content: space-around;
     align-items: center;
     min-height: 28rem;
+    margin-left: 1rem;
+    padding-right: 2rem;
 }
-.one {
+.one, .two, .three, .four {
     display: flex;
     flex-direction: column;
     width: 25%;
     justify-content: center;
     align-items: center;
-    /* height: 28rem; */
-    margin-top: auto;
-    margin-bottom: 20rem;
+   
 }
-.imgjoseba {
+.imgjoseba, .imgtaldea, .imgmikel, .imgkae {
     justify-content: center;
     align-items: center;
-    
 }
+
 .imgjoseba img{
     height: 16rem;
     
 }
-.textjoseba {
+.textjoseba, .textkae, .texttaldea, .textmikel{
     font-size: 1.2rem;
 }
 
-.two {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    justify-content: center;
-    align-items: center;  
-}
-.imgtaldea {
-    justify-content: center;
-    align-items: center;
-}
-.imgtaldea img{
+.imgtaldea img {
     height: 26rem;
 }
-.texttaldea {
-    font-size: 1.2rem;
-}
-.three {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    justify-content: center;
-    align-items: center;
-}
-.imgmikel {
-    justify-content: center;
-    align-items: center;  
-}
+
 .imgmikel img{
     height: 12rem;
 }
-.textmikel {
-    font-size: 1.2rem;
-}
+
 .textarc {
     font-size: 1.2rem;
     line-height: 0.1rem;
 }
-.imgarc {
-    justify-content: center;
-    align-items: center;  
-}
 .imgarc img {
     height: 11rem;
-}
-.four {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    justify-content: center;
-    align-items: center;   
-}
-.imgkae {
-    justify-content: center;
-    align-items: center; 
 }
 .imgkae img {
     height: 18rem;
 }
-.textkae {
-    font-size: 1.2rem;
-}
+
 
 
 

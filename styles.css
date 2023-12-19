@@ -63,6 +63,7 @@ main{
 .foto_contacto img {
     scale: 75%;
     border-radius: 10px;
+    transition-duration: 500ms;
 }
 
 .form_contacto {
@@ -114,6 +115,7 @@ button{
     height: 2.5rem;
     width: 6rem;
     border: none;
+    transition-duration: 500ms;
 }
 
 button:hover{
@@ -2064,10 +2066,10 @@ footer{
     justify-content: space-around;
 }
 
-.mapa {
-    /* border: 2px solid rgb(141, 25, 25); */
-    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
-}
+/* .mapa {
+    border: 2px solid rgb(141, 25, 25);
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+} */
 
 .direccion2 {
     /* border: 2px solid rgb(29, 213, 22); */
@@ -2102,8 +2104,8 @@ footer{
 
 .foto_contacto img:hover {
     transform: scale(117%);
-    transition-duration: 500ms;
-    box-shadow: rgba(0, 0, 0, 0.350) 4px 4px;
+    /* transition-duration: 500ms; */
+    box-shadow: rgba(0, 0, 0, 0.350) 32px 32px;
 }
 
 .redesSociales div a i:hover{
@@ -2111,6 +2113,22 @@ footer{
     transition-duration: 300ms;
 }
 
+input#name {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input#mail {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input#phone {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+textarea#message {
+    border-radius: 5px;
+    border: 1px solid black;
+}
 
 
 

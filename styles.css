@@ -2037,7 +2037,7 @@ footer{
 .foto_contacto img:hover {
     transform: scale(117%);
     transition-duration: 500ms;
-    box-shadow: rgba(0, 0, 0, 0.350) 4px 4px;
+    box-shadow: rgba(0, 0, 0, 0.350) 32px 32px;
 }
 
 .redesSociales div a i:hover{
@@ -2047,21 +2047,20 @@ footer{
 
 input#name {
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
 }
 input#mail {
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
 }
 input#phone {
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
 }
 textarea#message {
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
 }
-
 
 
 

@@ -50,7 +50,7 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
-    min-height: 28rem;
+    min-height: 30rem;
     /* border: 2px solid rgb(17, 18, 17); */    
 }
 
@@ -399,7 +399,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 28rem;
+    min-height: 28rem;
 }
 .one {
     display: flex;
@@ -975,7 +975,8 @@ footer{
 
    }
    .form_contacto {
-
+    
+    padding-bottom: 1rem;
    }
 }
 
@@ -1977,7 +1978,7 @@ footer{
 
 
 .sobre_nosotros {
-    min-height: 28rem;
+    min-height: 30rem;
     /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;

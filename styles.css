@@ -40,7 +40,7 @@ main{
     /* background-color: green; */
     background-image: url(img/fondo_principal.jpeg);
     background-size: cover;
-    min-height: 28rem;
+    min-height: 30rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -286,6 +286,41 @@ footer{
     height: 24rem;
     line-height: 2rem;
 }
+/* ********************menuIdiomas*************** */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    padding: 0.1rem;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .dropdown-content img{
+    height: 1.1rem;
+  }
+
+  .dropdown button{
+    height: 1.5rem;
+  }
+
+/* ***************menu ham*************** */
 
 
 
@@ -1070,16 +1105,9 @@ footer{
     /**  CATEGORIAS DAVID**/
 
 /* CATEGORIA FORMATIVA */
-/* /* .contenedor__categorias { */ */
-    /* display: flex;
-    flex-direction: column;    
-    align-items: center;
-    justify-content: center; */
-    /* background-image: url(img/fondo_principal.jpeg); */
-/* } */
 
 .categorias__grid {
-    width: 100%;
+    /* width: 100%; */
     display: grid;  
     grid-template-columns: none; 
     grid-template-rows: repeat(8, 1fr);
@@ -1091,34 +1119,42 @@ footer{
 
 .cat-uno {
     grid-row: 1 / 2;
+    grid-column: 1 / 5;
 }
 
 .imag-uno {
-    grid-row: 2 / 3
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
 }
 
 .cat-dos{
     grid-row: 3 / 4;
+    grid-column: 1 / 5;
 }
 
 .imag-dos {
     grid-row: 4 / 5;
+    grid-column: 1 / 5;
 }
 
 .cat-tres {
     grid-row: 5 / 6;
+    grid-column: 1 / 5;
 }
 
 .imag-tres {
     grid-row: 6 / 7;
+    grid-column: 1 / 5;
 }
 
 .cat-cuatro {
     grid-row: 7 / 8;
+    grid-column: 1 / 5;
 }
 
 .imag-cuatro {
     grid-row: 8 / 9;
+    grid-column: 2 / 4;
 }
 
 /* .categorias__grid--texto {
@@ -1135,6 +1171,9 @@ footer{
     justify-content: center;
 }
  */
+
+/* *************boton ham**************** */
+
 
 }
 

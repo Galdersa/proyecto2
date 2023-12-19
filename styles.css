@@ -40,7 +40,7 @@ main{
     /* background-color: green; */
     background-image: url(img/fondo_principal.jpeg);
     background-size: cover;
-    min-height: 28rem;
+    min-height: 30rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -50,7 +50,7 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
-    min-height: 30rem;
+    min-height: 28rem;
     /* border: 2px solid rgb(17, 18, 17); */    
 }
 
@@ -286,6 +286,41 @@ footer{
     height: 24rem;
     line-height: 2rem;
 }
+/* ********************menuIdiomas*************** */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    padding: 0.1rem;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .dropdown-content img{
+    height: 1.1rem;
+  }
+
+  .dropdown button{
+    height: 1.5rem;
+  }
+
+/* ***************menu ham*************** */
 
 
 
@@ -924,16 +959,23 @@ footer{
         scale: 55%;
    }
    .contacto {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: center;
    }
-   .foto_contacto {
-
+    .form_contacto {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
    }
-   .form_contacto {
-    
-    padding-bottom: 1rem;
+   .sobre_nosotros {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+   }
+   .mapa {
+    scale: 75%;
    }
 }
 
@@ -1023,16 +1065,9 @@ footer{
     /**  CATEGORIAS DAVID**/
 
 /* CATEGORIA FORMATIVA */
-/* /* .contenedor__categorias { */ */
-    /* display: flex;
-    flex-direction: column;    
-    align-items: center;
-    justify-content: center; */
-    /* background-image: url(img/fondo_principal.jpeg); */
-/* } */
 
 .categorias__grid {
-    width: 100%;
+    /* width: 100%; */
     display: grid;  
     grid-template-columns: none; 
     grid-template-rows: repeat(8, 1fr);
@@ -1044,34 +1079,42 @@ footer{
 
 .cat-uno {
     grid-row: 1 / 2;
+    grid-column: 1 / 5;
 }
 
 .imag-uno {
-    grid-row: 2 / 3
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
 }
 
 .cat-dos{
     grid-row: 3 / 4;
+    grid-column: 1 / 5;
 }
 
 .imag-dos {
     grid-row: 4 / 5;
+    grid-column: 1 / 5;
 }
 
 .cat-tres {
     grid-row: 5 / 6;
+    grid-column: 1 / 5;
 }
 
 .imag-tres {
     grid-row: 6 / 7;
+    grid-column: 1 / 5;
 }
 
 .cat-cuatro {
     grid-row: 7 / 8;
+    grid-column: 1 / 5;
 }
 
 .imag-cuatro {
     grid-row: 8 / 9;
+    grid-column: 2 / 4;
 }
 
 /* .categorias__grid--texto {
@@ -1089,6 +1132,35 @@ footer{
 }
  */
 
+/* *************boton ham**************** */
+
+
+
+/**********GALDER*********/
+.foto_contacto img {
+    display: none;
+}
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+}
+.form_contacto {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.sobre_nosotros .mapa {
+    scale: 75%;
+}
+.sobre_nosotros {
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
 }
 
 
@@ -1935,7 +2007,7 @@ footer{
 
 
 .sobre_nosotros {
-    min-height: 30rem;
+    min-height: 28rem;
     /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;
@@ -1946,7 +2018,7 @@ footer{
 
 .mapa {
     /* border: 2px solid rgb(141, 25, 25); */
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
 .direccion2 {
@@ -1958,6 +2030,7 @@ footer{
     align-content: center;
     justify-content: center;
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    min-width: 280px;
     /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
@@ -1970,6 +2043,7 @@ footer{
     align-content: center;
     justify-content: center;
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    min-width: 280px;
     /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
 

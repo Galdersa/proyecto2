@@ -50,7 +50,7 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
-    min-height: 30rem;
+    min-height: 28rem;
     /* border: 2px solid rgb(17, 18, 17); */    
 }
 
@@ -399,7 +399,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 28rem;
+    height: 28rem;
 }
 .one {
     display: flex;
@@ -967,16 +967,20 @@ footer{
         scale: 55%;
    }
    .contacto {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: center;
    }
-   .foto_contacto {
-
+    .form_contacto {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
    }
-   .form_contacto {
-    
-    padding-bottom: 1rem;
+   .sobre_nosotros {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
    }
 }
 
@@ -1978,7 +1982,7 @@ footer{
 
 
 .sobre_nosotros {
-    min-height: 30rem;
+    min-height: 28rem;
     /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;

@@ -63,6 +63,7 @@ main{
 .foto_contacto img {
     scale: 75%;
     border-radius: 10px;
+    transition-duration: 500ms;
 }
 
 .form_contacto {
@@ -114,6 +115,7 @@ button{
     height: 2.5rem;
     width: 6rem;
     border: none;
+    transition-duration: 500ms;
 }
 
 button:hover{
@@ -2036,7 +2038,7 @@ footer{
 
 .foto_contacto img:hover {
     transform: scale(117%);
-    transition-duration: 500ms;
+    /* transition-duration: 500ms; */
     box-shadow: rgba(0, 0, 0, 0.350) 32px 32px;
 }
 

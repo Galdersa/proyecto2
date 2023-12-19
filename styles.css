@@ -1017,6 +1017,9 @@ footer{
         align-content: center;
         justify-content: center;
    }
+   .mapa {
+    scale: 75%;
+   }
 }
 
 
@@ -1175,6 +1178,32 @@ footer{
 /* *************boton ham**************** */
 
 
+
+/**********GALDER*********/
+.foto_contacto img {
+    display: none;
+}
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+}
+.form_contacto {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.sobre_nosotros .mapa {
+    scale: 75%;
+}
+.sobre_nosotros {
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
 }
 
 
@@ -2032,7 +2061,7 @@ footer{
 
 .mapa {
     /* border: 2px solid rgb(141, 25, 25); */
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
 .direccion2 {
@@ -2044,6 +2073,7 @@ footer{
     align-content: center;
     justify-content: center;
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    min-width: 280px;
     /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
@@ -2056,6 +2086,7 @@ footer{
     align-content: center;
     justify-content: center;
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    min-width: 280px;
     /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
 

@@ -47,6 +47,7 @@ main{
 
 .contacto {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
     min-height: 28rem;
@@ -961,7 +962,21 @@ footer{
         height: 24rem;
         line-height: 2rem;
     }
-   
+   /**********GALDER*********/
+   .foto_contacto img {
+        scale: 55%;
+   }
+   .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+   .foto_contacto {
+
+   }
+   .form_contacto {
+
+   }
 }
 
 

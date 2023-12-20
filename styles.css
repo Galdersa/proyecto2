@@ -2000,10 +2000,10 @@ footer{
     justify-content: space-around;
 }
 
-/* .mapa {
-    border: 2px solid rgb(141, 25, 25);
-    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15);
-} */
+.mapa {
+    /* border: 2px solid rgb(141, 25, 25); */
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.15);
+}
 
 .direccion2 {
     /* border: 2px solid rgb(29, 213, 22); */

@@ -182,11 +182,7 @@ footer{
     align-items: center;
     
 }
-/* 
-.hamburguesa, ul, input, label, li {
-    display: none;
-}
- */
+
 .carrusel div{
     display: flex;
     width: 150rem;
@@ -321,6 +317,21 @@ footer{
   }
 
 /* ***************menu ham*************** */
+
+.contenedorHam{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.abrirMenu,
+.cerrarMenu{
+    display: none;
+   
+}
 
 
 
@@ -1174,6 +1185,32 @@ footer{
 
 /* *************boton ham**************** */
 
+.abrirMenu, .cerrarMenu{
+    display: block;
+
+}
+
+/* .barraNavegacion{
+    display: none;
+} */
+
+    .barraNavegacion{
+        
+        height: 30rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      /*   border: solid; */
+        background-color: #F3CD06;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .barraNavegacion.visible{
+        opacity: 1;
+        visibility: visible;
+    }
 
 }
 

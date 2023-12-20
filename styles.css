@@ -121,7 +121,7 @@ button{
 button:hover{
     background-color: aquamarine;
     transform:scale(1.25);
-    transition: all 500ms;
+    /* transition: all 500ms; */
 
 }
 

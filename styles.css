@@ -116,6 +116,7 @@ button{
     width: 6rem;
     border: none;
     transition-duration: 500ms;
+    line-height: 1.2;
 }
 
 button:hover{

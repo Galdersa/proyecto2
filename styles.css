@@ -116,6 +116,7 @@ button{
     width: 6rem;
     border: none;
     transition-duration: 500ms;
+    line-height: 1.2;
 }
 
 button:hover{
@@ -238,33 +239,36 @@ footer{
     display: flex;
     justify-content: center;
    /*  border: solid; */
-    width: 50%;
+    width: 40%;
+/*     border: solid yellow; */
+    padding-top: 2.5rem;
     
 }
 
 .imagenIndex img{
-    /* border-radius: 1rem; */
-    height: 26rem;
+    border-radius: 1rem;
+    height: 25rem;
     width: auto;
     justify-content: center;
-    padding-top: 0.5rem;
-    border-radius: 0.5rem;
-
+    scale: 115%;
+    
+   /*  border:solid brown; */
 }
 
 .textoIndexI{
     
     /* border: solid yellow; */
-    width: 19%;
-    padding: 0 1rem 0 1rem;
+    width: 22%;
+    padding: 0 1rem 0 2rem;
+    font-size:x-large;
     
 }
 
 .textoIndexD{
-   /*  border: solid green; */
-    width: 19%;
+    /* border: solid green; */
+    width: 22%;
     padding: 0 1rem 0 2rem;
-   
+    font-size:x-large;
 }
 
 .textoIndexD p {
@@ -959,7 +963,6 @@ footer{
         display: grid;  
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        
     }
 
     .cat-uno {
@@ -1003,12 +1006,69 @@ footer{
         grid-column: 2 / 3;
     }
 
-    .categorias__grid--texto {
-        text-align: center;
-        background-color: #F3CD06;
-        padding-bottom: 2rem;
-        text-transform: uppercase;
+    /* CATEGORIA LIGA */
+
+    .categorias__grid--liga-imagen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: 100px 220px 300px !important; 
+        column-gap: 1rem;
     }
+
+    .categorias_flex--liga-texto{
+        display: none !important;
+    }
+
+    .femenino{
+        display: block !important;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 2 / 3 !important;
+        grid-row: 1 / 2 !important;
+        
+    }
+
+    .masculino{
+        display: block !important;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .lista-uno{
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+    }
+
+    .imagen-1 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .lista-dos {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .imagen-2 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+
 
    /**********GALDER*********/
    .foto_contacto img {
@@ -1053,7 +1113,8 @@ footer{
     .cartel img {
         width: 100%;
     }
-      
+      }
+
 }
 
 
@@ -1200,6 +1261,83 @@ footer{
         text-transform: uppercase;
     }
 
+    .contenedor__categorias h1{
+        padding: 0;
+    }
+    
+    .categorias__grid--liga-imagen {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+
+
+    /* CATEGORIA LIGA */
+
+    
+    .categorias__grid--liga-imagen {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(4, 2fr) !important; 
+        column-gap: 1rem;
+    }
+
+    .categorias_flex--liga-texto{
+        display: none !important;
+    }
+
+<<<<<<< HEAD
+    .femenino{
+        display: block !important;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 1 / 2 !important;
+        grid-row: 3 / 4 !important;
+        
+    }
+=======
+    
+>>>>>>> 77be51585b900848c59a598c6ab613d65469284e
+
+    .masculino{
+        display: block !important;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .lista-uno{
+        display: none;
+    }
+
+    .imagen-1 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .lista-dos {
+        display: none;
+    }
+
+    .imagen-2 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
 /**********GALDER*********/
 .foto_contacto img {
     display: none;
@@ -1270,6 +1408,17 @@ footer{
         opacity: 1;
         visibility: visible;
     }
+
+    .textoIndexI{
+    
+        /* border: solid yellow; */
+        width: 45%;
+        padding: 0 1rem 0 2rem;
+        font-size:large;
+        
+    }
+    
+    
 
 }
 
@@ -1447,8 +1596,10 @@ footer{
 .categorias__grid--texto {
     text-align: center;
     background-color: #F3CD06;
+    border-radius: 0.5rem;
     padding-top: 2rem;
     text-transform: uppercase;
+    font-size: 1.2rem;
 }
 
 .categorias__grid--imagen img{
@@ -1456,7 +1607,7 @@ footer{
     height: 15rem;
     align-items: center;
     justify-content: center;
-    /* background-image: url(img/fondo_principal.jpeg); */
+    border-radius: 0.5rem;
 }
 
 
@@ -1465,6 +1616,13 @@ footer{
 
 .contenedor__categorias h1{
     padding: 0;
+}
+
+.masculino {
+    display: none;
+}
+.femenino {
+    display: none;
 }
 
 .categorias_flex--liga-texto {
@@ -1483,14 +1641,16 @@ footer{
 }
 
 .categoria__grid--lista {
+    font-size: 1.2rem;
     color: black;
-    line-height: normal;
+    line-height: 0.5rem;
     text-align: center;
 }
 
 
 .categorias__flex--texto-liga {
     background-color: #F3CD06;
+    font-size: 1.2rem;
     margin: auto;
     padding: 1rem;
     text-align: center;
@@ -1505,6 +1665,9 @@ footer{
     height: 18rem;
 }
 
+.categorias__grid--imagen-liga img{
+    border-radius: .5rem;
+}
 
 
 

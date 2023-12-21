@@ -1269,9 +1269,7 @@ footer{
         display: none   ;
     }
 
-    .femenino{
-
-    }
+    
 
     .masculino{
         grid-column: 1 / 2;

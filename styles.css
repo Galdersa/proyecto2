@@ -1046,13 +1046,15 @@ footer{
     }
   
 
- /* Media query for tablets */
-
     .mainhistoria {
        height: 100%; 
     }
-      
 
+    .cartel img {
+        width: 100%;
+    }
+      
+}
 
 
 
@@ -1241,7 +1243,7 @@ footer{
    
 
 
-    }.abrirMenu, .cerrarMenu{
+    .abrirMenu, .cerrarMenu{
     display: block;
 
 }

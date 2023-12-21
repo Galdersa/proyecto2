@@ -400,36 +400,35 @@ footer{
 
 /* ********************ANNA****************** */
 .mainhistoria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 27rem;
-    width: 95%;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden; 
 }
 .cartel img{
     display: flex;
+    justify-content: center;
     width: 20rem;
-    height: 27rem;
-    position: relative;
-    top: 0.5rem;
+    height: auto;
+    position: absolute;
+    top: 1.5rem;
     opacity: 50%;
+   
 }
 .historia {
-    position: absolute;
-
+    position: relative;
+    text-align: center;
+    z-index: 1;
 }
 .historia-text {
-    
-    top: 24rem;
-    bottom: 11rem;
-    font-family: arial;
-    /* font-weight: bold; */
-    font-size: 1.1rem;
-    padding-left: 2rem;
+    margin: 0;
+    font-size: 1.4rem;
 }
+
 .historia-titulo {
     padding-left: 3rem;
 }
+
 .orio {
     font-style: italic;
     font-weight: bolder;
@@ -444,6 +443,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    display: flex;
+     
    
 }
 .one, .two, .three, .four {
@@ -460,19 +461,14 @@ footer{
     max-width: 100%;
     height: auto;
 }
-
-.imgjoseba img{
-    max-width: 100%;
-    height: auto;
-    
-}
 .textjoseba, .textkae, .texttaldea, 
 .textmikel, .textarc{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 .imgtaldea img, .imgarc img,
-.imgmikel img, .imgkae img {
+.imgmikel img, .imgkae img, 
+.imgjoseba img {
     max-width: 100%;
     height: auto;
 }
@@ -1081,16 +1077,25 @@ footer{
 
    /* ********ANNA********* */
 /* Tablet (768px) styles */
-@media (max-width: 768px) {
-    .one, .two, .three, .four {
-      width: 50%;
+
+    .noticias {
+      display: flex;
+      flex-direction: column;
     }
-  }
-  
+    .one, .two, .three, .four {
+      width: 100%;
+    }
   
 
+ /* Media query for tablets */
 
+    .mainhistoria {
+       height: 100%; 
+    }
+      
 }
+
+
 
 
 
@@ -1320,13 +1325,22 @@ footer{
 
 /* ********ANNA******** */
 /* Mobile (480px) styles */
-@media (max-width: 480px) {
-    .one, .two, .three, .four  {
-      width: 100%;
-    }
-  }
 
-.abrirMenu, .cerrarMenu{
+    .one, .two, .three, .four  {
+      scale: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+   
+  
+  
+    .mainhistoria{
+        height: 100%;
+    }
+   
+
+
+    .abrirMenu, .cerrarMenu{
     display: block;
 
 }

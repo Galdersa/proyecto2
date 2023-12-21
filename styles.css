@@ -1052,6 +1052,7 @@ footer{
        height: 100%; 
     }
       
+}
 
 
 
@@ -1241,7 +1242,7 @@ footer{
    
 
 
-    }.abrirMenu, .cerrarMenu{
+    .abrirMenu, .cerrarMenu{
     display: block;
 
 }

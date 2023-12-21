@@ -422,7 +422,7 @@ footer{
 }
 .historia-text {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .historia-titulo {
@@ -443,6 +443,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    display: flex;
+     
    
 }
 .one, .two, .three, .four {
@@ -461,7 +463,7 @@ footer{
 }
 .textjoseba, .textkae, .texttaldea, 
 .textmikel, .textarc{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 .imgtaldea img, .imgarc img,
@@ -1035,15 +1037,19 @@ footer{
    /* ********ANNA********* */
 /* Tablet (768px) styles */
 
+    .noticias {
+      display: flex;
+      flex-direction: column;
+    }
     .one, .two, .three, .four {
-      scale: 50%;
+      width: 100%;
     }
   
 
  /* Media query for tablets */
 
     .mainhistoria {
-        height: 25rem; 
+       height: 100%; 
     }
       
 
@@ -1223,12 +1229,14 @@ footer{
 
     .one, .two, .three, .four  {
       scale: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
    
   
   
     .mainhistoria{
-        height: 25rem;
+        height: 100%;
     }
    
 

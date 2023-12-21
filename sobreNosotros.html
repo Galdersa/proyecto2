@@ -14,15 +14,21 @@
     <nav>
         <div class="botonHome"><a href="/proyecto2/index.html"><img src="/proyecto2/img/logo_orio3.png" alt="logo de la institución orio remo"></a></div>
 
-        <div class="logoNav"><img src="/proyecto2/img/logo_orio2.png" alt=""></div>
+       <!-- ***************boton ham************** -->
+       <div class="contenedorHam">
+        <button class="abrirMenu" id="abrir"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <!-- ***************boton ham************** -->
+    <div class="logoNav"><img src="/proyecto2/img/logo_orio2.png" alt=""></div>
 
-        <div class="barraNavegacion">
-            <div><a href="/proyecto2/historia.html"><button>HISTORIA</button></a></div>
-            <div><a href="/proyecto2/noticias.html"><button>NOTICIAS</button></a></div>
-            <div><a href="/proyecto2/categorias.html"><button>CATEGORIAS</button></a></div>
-            <div><a href="/proyecto2/sobreNosotros.html"><button>SOBRE NOSOTROS</button></a></div>
-            <div><a href="/proyecto2/contacto.html"><button>CONTACTO</button></a></div>
-        </div>
+    <div class="barraNavegacion" id="nav">
+        <div class="cerrarMenu" id="cerrar"><button><i class="fa-solid fa-xmark"></i></button></div>
+        <div><a href="/proyecto2/historia.html"><button>HISTORIA</button></a></div>
+        <div><a href="/proyecto2/noticias.html"><button>NOTICIAS</button></a></div>
+        <div><a href="/proyecto2/categorias.html"><button>CATEGORIAS</button></a></div>
+        <div><a href="/proyecto2/sobreNosotros.html"><button>SOBRE NOSOTROS</button></a></div>
+        <div><a href="/proyecto2/contacto.html"><button>CONTACTO</button></a></div>
+    </div>
 
        <!--  <nav class="hamburguesa">
             <input type="checkbox" id="menu">
@@ -82,7 +88,7 @@
     <main>
         <div class="sobre_nosotros">
             
-            <div class="mapa"><iframe width="550" height="400" frameborder="1" scrolling="no"
+            <div class="mapa"><iframe width="550" height="400" frameborder="0" scrolling="no"
                     marginheight="0" marginwidth="0"
                     src="https://maps.google.com/maps?width=450&amp;height=400&amp;hl=es&amp;q=43.274710254045544,%20-2.1202556810562907+(Orio%20Arraunketa%20Elkartea)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
                         href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe>
@@ -124,6 +130,6 @@
         <div class="direccion"><p>- Barrio Estación, s/n, 20810 Orio, Gipuzkoa tel:+34 658 388 822 orioae@orio-ae.com - </p></div>
 
     </footer>
-    
+    <script src="javascript.js"></script>
 </body>
 </html>

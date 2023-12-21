@@ -9,23 +9,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    
     <nav>
         <div class="botonHome"><a href="/proyecto2/index.html"><img src="/proyecto2/img/logo_orio3.png" alt="logo de la institución orio remo"></a></div>
 
-        <!-- ***************boton ham************** -->
-        
-        <!-- ***************boton ham************** -->
-        <div class="logoNav"><img src="/proyecto2/img/logo_orio2.png" alt=""></div>
+       <!-- ***************boton ham************** -->
+       <div class="contenedorHam">
+        <button class="abrirMenu" id="abrir"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <!-- ***************boton ham************** -->
+    <div class="logoNav"><img src="/proyecto2/img/logo_orio2.png" alt=""></div>
 
-        <div class="barraNavegacion">
-            <div><a href="/proyecto2/historia.html"><button>HISTORIA</button></a></div>
-            <div><a href="/proyecto2/noticias.html"><button>NOTICIAS</button></a></div>
-            <div><a href="/proyecto2/categorias.html"><button>CATEGORIAS</button></a></div>
-            <div><a href="/proyecto2/sobreNosotros.html"><button>SOBRE NOSOTROS</button></a></div>
-            <div><a href="/proyecto2/contacto.html"><button>CONTACTO</button></a></div>
-        </div>
+    <div class="barraNavegacion" id="nav">
+        <div class="cerrarMenu" id="cerrar"><button><i class="fa-solid fa-xmark"></i></button></div>
+        <div><a href="/proyecto2/historia.html"><button>HISTORIA</button></a></div>
+        <div><a href="/proyecto2/noticias.html"><button>NOTICIAS</button></a></div>
+        <div><a href="/proyecto2/categorias.html"><button>CATEGORIAS</button></a></div>
+        <div><a href="/proyecto2/sobreNosotros.html"><button>SOBRE NOSOTROS</button></a></div>
+        <div><a href="/proyecto2/contacto.html"><button>CONTACTO</button></a></div>
+    </div>
 
         
 
@@ -111,6 +116,6 @@
         <div class="direccion"><p>- Barrio Estación, s/n, 20810 Orio, Gipuzkoa tel:+34 658 388 822 orioae@orio-ae.com - </p></div>
 
     </footer>
-    
+    <script src="javascript.js"></script>
 </body>
 </html>

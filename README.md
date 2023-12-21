@@ -1,12 +1,12 @@
-# proyecto2
+
 
 ## Página web Orio Remo
 
-### Pagina de Remo para la localidad de Orio
+### Pagina de Remo para la localidad de Orio realizada en un ámbito educativo.
 
 ### Realizada por:  
 
 **Galder Suarez**  
-**Anna Iashvili**  
+**Anna (Zinaida) Iashvili**  
 **David Altamirano**  
 **Elías Riquelme**  

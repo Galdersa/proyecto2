@@ -20,6 +20,16 @@ Listo para el primer sprint review
 
 ## Tecnologías utilizadas
 
+* HTML5
+* CSS3
+* JavaScript
+* Figma
+* Linux
+* Git
+* GitHub
+* Visual Studio Code
+* Trello
+
 ## Instalación y prueba
 
 1. Copia la URL del proyecto
@@ -41,6 +51,9 @@ $ git clone https://github.com/Galdersa/proyecto2.git
 
 * HTML5
 * CSS3
+* Flex Box
+* CSS Grid
+* Responsive Design
 * JavaScript
 * Figma
 * Linux

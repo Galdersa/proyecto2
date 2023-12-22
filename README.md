@@ -1,7 +1,5 @@
 # Sitio Web Equipo Olímpico Orio Remo
 
--------------AQUII descrpcion-----------------------
-
 ## Tabla de contenido
 
 1. Información general
@@ -13,6 +11,16 @@
 7. Agradecimientos
 
 ## Información general
+
+Web estatica para equipo olímpico de remo de la localidad de Orio. Consta de:
+
+* Home: información general
+* Historia: historia del equipo, creación, fechas importantes.
+* Noticias: noticias actuales y destacadas.
+* Categorias Formativas: descripción de las diferentes categorias formativas: Alevines, infantiles, cadetes y juveniles.
+* Categorias Liga: Presentación de categoria profesional femenina y masculina.
+* Sobre nosotros: Mapa de ubicación, nota de contacto y dirigencia.
+* Contacto: espacio dedicado para toma de contacto con la institución.
 
 ## Estado actual
 
@@ -75,5 +83,8 @@ $ git clone https://github.com/Galdersa/proyecto2.git
 * **Elías Riquelme (Software Developer)**  
 
 ## Agradecimientos
+
+* Agradecimiento especial al formador Andres Ocina por su paciencia y dedicación.
+* A los miembros de los diferentes equipos que nos acompañan en este curso.
 
 

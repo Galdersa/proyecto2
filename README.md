@@ -1,6 +1,17 @@
+# Sitio Web Equipo Olimpico Orio Remo
 
+-------------AQUII descrpcion-----------------------
 
-## Página web Orio Remo
+## Tabla de contenido
+
+* Introducción
+* Requerimientos
+* Recomendaciones
+* Instalación
+* Configuración
+* Troubleshooting
+* FAQ
+* Maintainers
 
 ### Pagina de Remo para la localidad de Orio realizada en un ámbito educativo.
 

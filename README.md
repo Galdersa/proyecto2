@@ -64,9 +64,9 @@ $ git clone https://github.com/Galdersa/proyecto2.git
 
 ## Equipo
 
-**Galder Suarez (SCRUM Master)**  
-**Anna Iashvili (Product Owner)**  
-**David Altamirano (Software Developer)**  
-**Elías Riquelme (Software Developer)**  
+* **Galder Suarez (SCRUM Master)**  
+* **Anna Iashvili (Product Owner)**  
+* **David Altamirano (Software Developer)**  
+* **Elías Riquelme (Software Developer)**  
 
 ## Agradecimientos

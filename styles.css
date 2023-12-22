@@ -4,7 +4,6 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
 
 * {
     font-family: 'Titillium Web', sans-serif;
@@ -24,20 +23,14 @@ nav{
     margin: 0 auto;
 }
 
-/* .hamburguesa-btn{
-    display: none;
-}
- */
 header{
     background-color: white;
     width: 100%;
     height: 12rem;
     margin: 0 auto;
-    /* border: solid; */
 }
 
 main{
-    /* background-color: green; */
     background-image: url(img/fondo_principal.jpeg);
     background-size: cover;
     min-height: 30rem;
@@ -50,12 +43,10 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
-    min-height: 28rem;
-    /* border: 2px solid rgb(17, 18, 17); */    
+    min-height: 28rem; 
 }
 
 .foto_contacto {
-    /* border: 2px solid rgb(27, 72, 171); */
     display: flex;
     align-items: center;
 }
@@ -68,7 +59,6 @@ main{
 
 .form_contacto {
     padding-top: 5rem;    
-    /* border: 2px solid rgb(221, 18, 204); */
 }
 
 footer{
@@ -84,21 +74,18 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid ; */
 }
 
 .botonHome img{
     display: flex;
     width: 8rem;
     padding: 2rem;
-    /* border: solid; */
 }
 
 .logoNav{
     display:flex;
     width: 18rem;
     padding: 2rem;
-   /*  border: solid;    */  
 }
 
 .barraNavegacion{
@@ -106,7 +93,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-   /*  border: solid; */
 }
 
 button{
@@ -122,12 +108,9 @@ button{
 button:hover{
     background-color: aquamarine;
     transform:scale(1.25);
-    /* transition: all 500ms; */
-
 }
 
 footer{
-    /* border: solid yellow; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -137,7 +120,6 @@ footer{
 .redesSociales{
     width: 100%;
     height: 2rem;
-    /* border: solid; */
     display: flex;
     justify-content:space-around;
     margin: 0 1rem 0 1rem   
@@ -156,12 +138,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid red; */
 }
 
 .direccion{
     width: 100%;
-    /* border: solid ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +151,6 @@ footer{
 }
 
 .directivos{
-    /* border: solid blue; */
     align-items: start;
     margin-top: 0;
     padding-top: 0;
@@ -179,11 +158,9 @@ footer{
 
 .iconosFooter{
     display: flex;
-    /* border: solid; */
     width: 30rem;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .carrusel div{
@@ -217,7 +194,6 @@ footer{
     margin-right: 0.5rem;
 }
 
-
 @keyframes carrusel {
     0% {
         transform: translateX(10%);
@@ -232,17 +208,13 @@ footer{
     display: flex;
     height: 26rem;
     justify-content: space-around;
-   /*  border: solid blue; */
 }
 
 .imagenIndex{
     display: flex;
     justify-content: center;
-   /*  border: solid; */
     width: 40%;
-/*     border: solid yellow; */
-    padding-top: 2.5rem;
-    
+    padding-top: 2.5rem;    
 }
 
 .imagenIndex img{
@@ -251,21 +223,15 @@ footer{
     width: auto;
     justify-content: center;
     scale: 115%;
-    
-   /*  border:solid brown; */
 }
 
 .textoIndexI{
-    
-    /* border: solid yellow; */
     width: 22%;
     padding: 0 1rem 0 2rem;
-    font-size:x-large;
-    
+    font-size:x-large;    
 }
 
 .textoIndexD{
-    /* border: solid green; */
     width: 22%;
     padding: 0 1rem 0 2rem;
     font-size:x-large;
@@ -275,7 +241,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-   /*  border: solid; */
     height: 24rem;
     line-height: 2rem;
 }
@@ -284,16 +249,18 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-   /*  border: solid; */
     height: 24rem;
     line-height: 2rem;
 }
+
 /* ********************menuIdiomas*************** */
+
 .dropdown {
     display: inline-block;
     position: relative;
     padding: 0.1rem;
   }
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -301,6 +268,7 @@ footer{
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   }
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -310,10 +278,12 @@ footer{
     padding: 5px;
     text-decoration: none;
   }
+
   .dropdown-content a:hover {
     color: #FFFFFF;
     background-color: #00A4BD;
   }
+
   .dropdown-content img{
     height: 1.1rem;
   }
@@ -322,93 +292,28 @@ footer{
     height: 1.5rem;
   }
 
-/* ***************menu ham*************** */
+/* ***************menu hamburguesa*************** */
 
-.contenedorHam{
-   
+.contenedorHam{   
     display: flex;
     justify-content: center;
     align-items: center;
-   
-
 }
 
 .abrirMenu,
 .cerrarMenu{
-    display: none;
-   
+    display: none;   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ********************ANNA****************** */
+
 .mainhistoria {
     position: relative;
     width: 100%;
     height: 30rem;
     overflow: hidden; 
 }
+
 .cartel img{
     display: flex;
     justify-content: center;
@@ -416,14 +321,15 @@ footer{
     height: auto;
     position: absolute;
     top: 1.5rem;
-    opacity: 50%;
-   
+    opacity: 50%;   
 }
+
 .historia {
     position: relative;
     text-align: center;
     z-index: 1;
 }
+
 .historia-text {
     margin: 0;
     font-size: 1.4rem;
@@ -438,7 +344,6 @@ footer{
     font-weight: bolder;
     font-size: 3rem;
     color: rgb(62, 4, 115);
-
 }
 
 /* noticias */
@@ -447,24 +352,24 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    display: flex;
-     
-   
+    display: flex;   
 }
+
 .one, .two, .three, .four {
     box-sizing: border-box;
     width: 25%;
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-   
 }
+
 .imgjoseba, .imgtaldea, .imgmikel, .imgkae {
     justify-content: center;
     align-items: center;
     max-width: 100%;
     height: auto;
 }
+
 .textjoseba, .textkae, .texttaldea, 
 .textmikel, .textarc{
     font-size: 1.6rem;
@@ -477,416 +382,6 @@ footer{
     height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ****************MEDIA QUERY******************* */
 
 @media screen and (max-width: 1300px) {
@@ -895,32 +390,24 @@ footer{
         display: none;
     }
 
-
     .logoNav{
         display: none;
     }
-
-   /*  .hamburguesa, ul, input, label, li {
-        display: none;
-    } */
 
     .mainIndex{
         display: flex;
         height: 26rem;
         justify-content: center;
-      /*   border: solid blue; */
     }
     
     .imagenIndex{
         display: flex;
-       /*  border: solid; */
         width: 50%;
         justify-content: center;
         align-items: center;
     }
     
     .imagenIndex img{
-        /* border: solid white; */
         height: 17rem;
         width: auto;
         padding-top: 0.5rem;
@@ -928,7 +415,6 @@ footer{
     }
     
     .textoIndexI{
-       /*  border: solid yellow; */
         width: 40%;
         padding: 0 1rem 0 1rem;
     }
@@ -941,7 +427,6 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-       /*  border: solid */;
         height: 24rem;
         line-height: 2rem;
     }
@@ -950,14 +435,9 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-       /*  border: solid; */
         height: 24rem;
         line-height: 2rem;
     }
-
-    /**  CATEGORIAS DAVID**/
-
-    /* CATEGORIA FORMATIVA */
 
     .categorias__grid {
         display: grid;  
@@ -972,8 +452,7 @@ footer{
 
     .imag-uno {
         grid-row: 2 / 3;
-        grid-column: 2 / 3;
-        
+        grid-column: 2 / 3;        
     }
 
     .cat-dos{
@@ -1030,8 +509,7 @@ footer{
         border-radius: .5rem;
         text-transform: uppercase;
         grid-column: 2 / 3 !important;
-        grid-row: 1 / 2 !important;
-        
+        grid-row: 1 / 2 !important;        
     }
 
     .masculino{
@@ -1068,44 +546,42 @@ footer{
         grid-row: 3 / 4;
     }
 
-
-
-   /**********GALDER*********/
    .foto_contacto img {
         scale: 55%;
    }
+
    .contacto {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-items: center;
    }
+
     .form_contacto {
         padding-top: 1rem;
         padding-bottom: 1rem;
    }
+
    .sobre_nosotros {
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
    }
+
    .mapa {
     scale: 75%;
    }
-
-   /* ********ANNA********* */
-/* Tablet (768px) styles */
 
     .noticias {
       display: flex;
       flex-direction: column;
     }
+
     .one, .two, .three, .four {
       width: 100%;
     }
   
-
     .mainhistoria {
        height: 100%; 
     }
@@ -1115,100 +591,28 @@ footer{
     }
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 900px) {
 
     .direccion{
         display: none;
-    }
+    }    
 
-    
-
-   .imagenIndex img{
-    
+   .imagenIndex img{    
     height: 10rem;
    }
 
    .textoIndexI{
-    display: flex;
-    
+    display: flex;    
    }
-.mainIndex{
-    
+
+.mainIndex{    
     justify-content: space-around;
 }
-
-    /**  CATEGORIAS DAVID**/
-
-    /* CATEGORIA FORMATIVA */
 
     .categorias__grid {
         display: grid;  
         grid-template-columns: repeat(1, 500px) !important; 
-        grid-template-rows:  repeat(8, 3fr); 
-        
+        grid-template-rows:  repeat(8, 3fr);        
     }
 
     .categorias__grid--imagen img {
@@ -1223,8 +627,7 @@ footer{
 
     .imag-uno {
         grid-row: 2 / 3;
-        grid-column: 1 / 3; 
-        
+        grid-column: 1 / 3;        
         grid-column-start: 1;
         grid-column: 1 / 2;
     }
@@ -1269,10 +672,6 @@ footer{
     .contenedor__categorias h1{
         padding: 0;
     }
-
-
-    /* CATEGORIA LIGA */
-
     
     .categorias__grid--liga-imagen {
         display: grid;
@@ -1308,7 +707,6 @@ footer{
         grid-row: 3 / 4 !important;
     }
     
-
     .masculino{
         width: 100%;
         background-color: #F3CD06;
@@ -1341,25 +739,27 @@ footer{
         width: 100%;
     }
 
-/**********GALDER*********/
 .foto_contacto img {
     display: none;
 }
+
 .contacto {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-items: center;
 }
+
 .form_contacto {
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
+
 .sobre_nosotros .mapa {
     scale: 75%;
 }
+
 .sobre_nosotros {
-    /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -1367,39 +767,25 @@ footer{
     justify-content: space-around;
 }
 
-/* ********ANNA******** */
-/* Mobile (480px) styles */
-
     .one, .two, .three, .four  {
       scale: 100%;
       display: flex;
       flex-wrap: wrap;
-    }
-   
-  
+    }  
   
     .mainhistoria{
         height: 100%;
     }
    
-
-
     .abrirMenu, .cerrarMenu{
     display: block;
-
 }
 
-/* .barraNavegacion{
-    display: none;
-} */
-
-    .barraNavegacion{
-        
+    .barraNavegacion{        
         height: 30rem;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-      /*   border: solid; */
         background-color: #F3CD06;
         box-shadow: 0 0 0 100vmax rgb(0, 0, 0, 0.5);
         opacity: 0;
@@ -1412,174 +798,15 @@ footer{
         visibility: visible;
     }
 
-    .textoIndexI{
-    
+    .textoIndexI{    
         /* border: solid yellow; */
         width: 45%;
         padding: 0 1rem 0 2rem;
         font-size:large;
-        
-    }
-    
-    
+    }  
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**  CATEGORIAS DAVID**/
-
-/* CATEGORIA FORMATIVA */
 .contenedor__categorias {
     display: flex;
     flex-direction: column;    
@@ -1612,10 +839,6 @@ footer{
     border-radius: 0.5rem;
 }
 
-
-/* CATEGORIA LIGA */
-
-
 .contenedor__categorias h1{
     padding: 0;
 }
@@ -1623,6 +846,7 @@ footer{
 .masculino {
     display: none;
 }
+
 .femenino {
     display: none;
 }
@@ -1649,7 +873,6 @@ footer{
     text-align: center;
 }
 
-
 .categorias__flex--texto-liga {
     background-color: #F3CD06;
     font-size: 1.2rem;
@@ -1671,619 +894,8 @@ footer{
     border-radius: .5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sobre_nosotros {
     min-height: 28rem;
-    /* border: 2px solid gainsboro; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -2292,12 +904,10 @@ footer{
 }
 
 .mapa {
-    /* border: 2px solid rgb(141, 25, 25); */
     box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
 .direccion2 {
-    /* border: 2px solid rgb(29, 213, 22); */
     width: 20%;
     font-size: 1.5rem;
     display: flex;
@@ -2306,11 +916,9 @@ footer{
     justify-content: center;
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
     min-width: 280px;
-    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
 }
 
 .directiva {
-    /* border: 2px solid rgb(57, 59, 212); */
     width: 20%;
     font-size: 1.5rem;
     display: flex;
@@ -2319,7 +927,6 @@ footer{
     justify-content: center;
     text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
     min-width: 280px;
-    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
     }
 
 .botonHome:hover {
@@ -2329,7 +936,6 @@ footer{
 
 .foto_contacto img:hover {
     transform: scale(117%);
-    /* transition-duration: 500ms; */
     box-shadow: rgba(0, 0, 0, 0.350) 32px 32px;
 }
 
@@ -2354,19 +960,3 @@ textarea#message {
     border-radius: 5px;
     border: 1px solid black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

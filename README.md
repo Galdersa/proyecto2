@@ -1,10 +1,10 @@
-# Sitio Web Equipo Olimpico Orio Remo
+# Sitio Web Equipo Olímpico Orio Remo
 
 -------------AQUII descrpcion-----------------------
 
 ## Tabla de contenido
 
-* Introducción
+1 Introducción
 * Requerimientos
 * Recomendaciones
 * Instalación

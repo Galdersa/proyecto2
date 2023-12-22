@@ -31,6 +31,9 @@ https://github.com/Galdersa/proyecto2.git
 3. Abra una terminal, use el comando git clone y pegue la URL al final dejando un espacio selecione la carpeta donde desea clonar el proyecto y finalmente pulse enter.
    (Debe tener instalado git)
 
+![Imagen git clone](img/categoria_alevin.jpg) (Reemplaazar lo del parentesis por ruta con captura de pantalla de clonaar repositorio desde Visual, preferiblemente de la terminal de David -_- ('.'))
+
+
 ```
 $ git clone https://github.com/Galdersa/proyecto2.git
 ```

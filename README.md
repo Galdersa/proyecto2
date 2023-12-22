@@ -24,15 +24,16 @@ Listo para el primer sprint review
 
 1. Copia la URL del proyecto
    
-'''
+```
 https://github.com/Galdersa/proyecto2.git
-'''
+```
 
 3. Abra una terminal, use el comando git clone y pegue la URL al final dejando un espacio selecione la carpeta donde desea clonar el proyecto y finalmente pulse enter.
    (Debe tener instalado git)
-'''
+
+```
 $ git clone https://github.com/Galdersa/proyecto2.git
-'''
+```
 ## Marcos de competencia
 
 * HTML5

@@ -1,0 +1,2372 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3CD06;
+    width: 100%;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+/* .hamburguesa-btn{
+    display: none;
+}
+ */
+header{
+    background-color: white;
+    width: 100%;
+    height: 12rem;
+    margin: 0 auto;
+    /* border: solid; */
+}
+
+main{
+    /* background-color: green; */
+    background-image: url(../img/fondo_principal.jpeg);
+    background-size: cover;
+    min-height: 30rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    min-height: 28rem;
+    /* border: 2px solid rgb(17, 18, 17); */    
+}
+
+.foto_contacto {
+    /* border: 2px solid rgb(27, 72, 171); */
+    display: flex;
+    align-items: center;
+}
+
+.foto_contacto img {
+    scale: 75%;
+    border-radius: 10px;
+    transition-duration: 500ms;
+}
+
+.form_contacto {
+    padding-top: 5rem;    
+    /* border: 2px solid rgb(221, 18, 204); */
+}
+
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+/* Botoneras */
+
+.botonHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid ; */
+}
+
+.botonHome img{
+    display: flex;
+    width: 8rem;
+    padding: 2rem;
+    /* border: solid; */
+}
+
+.logoNav{
+    display:flex;
+    width: 18rem;
+    padding: 2rem;
+   /*  border: solid;    */  
+}
+
+.barraNavegacion{
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /*  border: solid; */
+}
+
+button{
+    background-color: #5D7CCA;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 6rem;
+    border: none;
+    transition-duration: 500ms;
+    line-height: 1.2;
+}
+
+button:hover{
+    background-color: aquamarine;
+    transform:scale(1.25);
+    /* transition: all 500ms; */
+
+}
+
+footer{
+    /* border: solid yellow; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F3CD06; 
+}
+
+.redesSociales{
+    width: 100%;
+    height: 2rem;
+    /* border: solid; */
+    display: flex;
+    justify-content:space-around;
+    margin: 0 1rem 0 1rem   
+}
+
+.redesSociales div a i{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    font-size:2.5rem;
+}
+
+.siguenos{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+}
+
+.direccion{
+    width: 100%;
+    /* border: solid ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    font-style:italic;
+    font-weight:lighter;
+}
+
+.directivos{
+    /* border: solid blue; */
+    align-items: start;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.iconosFooter{
+    display: flex;
+    /* border: solid; */
+    width: 30rem;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.carrusel div{
+    display: flex;
+    width: 150rem;
+    animation: carrusel 9s linear infinite;
+    white-space: nowrap;
+    height: 12rem
+}
+
+.carrusel{    
+    background-color: none;
+}
+
+.carrusel span{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carrusel img{
+    border-radius: 0.2rem;
+}
+
+.botonIdiomas{
+    display: flex;
+    justify-content: end;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+@keyframes carrusel {
+    0% {
+        transform: translateX(10%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+
+}
+.mainIndex{
+    display: flex;
+    height: 26rem;
+    justify-content: space-around;
+   /*  border: solid blue; */
+}
+
+.imagenIndex{
+    display: flex;
+    justify-content: center;
+   /*  border: solid; */
+    width: 40%;
+/*     border: solid yellow; */
+    padding-top: 2.5rem;
+    
+}
+
+.imagenIndex img{
+    border-radius: 1rem;
+    height: 25rem;
+    width: auto;
+    justify-content: center;
+    scale: 115%;
+    
+   /*  border:solid brown; */
+}
+
+.textoIndexI{
+    
+    /* border: solid yellow; */
+    width: 22%;
+    padding: 0 1rem 0 2rem;
+    font-size:x-large;
+    
+}
+
+.textoIndexD{
+    /* border: solid green; */
+    width: 22%;
+    padding: 0 1rem 0 2rem;
+    font-size:x-large;
+}
+
+.textoIndexD p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*  border: solid; */
+    height: 24rem;
+    line-height: 2rem;
+}
+
+.textoIndexI p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*  border: solid; */
+    height: 24rem;
+    line-height: 2rem;
+}
+/* ********************menuIdiomas*************** */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    padding: 0.1rem;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .dropdown-content img{
+    height: 1.1rem;
+  }
+
+  .dropdown button{
+    height: 1.5rem;
+  }
+
+/* ***************menu ham*************** */
+
+.contenedorHam{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.abrirMenu,
+.cerrarMenu{
+    display: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************ANNA****************** */
+.mainhistoria {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden; 
+}
+.cartel img{
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: auto;
+    position: absolute;
+    top: 1.5rem;
+    opacity: 50%;
+   
+}
+.historia {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.historia-text {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.historia-titulo {
+    padding-left: 3rem;
+}
+
+.orio {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: rgb(62, 4, 115);
+
+}
+
+/* noticias */
+
+.noticias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+     
+   
+}
+.one, .two, .three, .four {
+    box-sizing: border-box;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+   
+}
+.imgjoseba, .imgtaldea, .imgmikel, .imgkae {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+.textjoseba, .textkae, .texttaldea, 
+.textmikel, .textarc{
+    font-size: 1.6rem;
+}
+
+.imgtaldea img, .imgarc img,
+.imgmikel img, .imgkae img, 
+.imgjoseba img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************MEDIA QUERY******************* */
+
+@media screen and (max-width: 1300px) {
+
+    .directivos{
+        display: none;
+    }
+
+
+    .logoNav{
+        display: none;
+    }
+
+   /*  .hamburguesa, ul, input, label, li {
+        display: none;
+    } */
+
+    .mainIndex{
+        display: flex;
+        height: 26rem;
+        justify-content: center;
+      /*   border: solid blue; */
+    }
+    
+    .imagenIndex{
+        display: flex;
+       /*  border: solid; */
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagenIndex img{
+        /* border: solid white; */
+        height: 17rem;
+        width: auto;
+        padding-top: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .textoIndexI{
+       /*  border: solid yellow; */
+        width: 40%;
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .textoIndexD{
+       display: none;
+    }
+    
+    .textoIndexD p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       /*  border: solid */;
+        height: 24rem;
+        line-height: 2rem;
+    }
+    
+    .textoIndexI p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       /*  border: solid; */
+        height: 24rem;
+        line-height: 2rem;
+    }
+
+    /**  CATEGORIAS DAVID**/
+
+    /* CATEGORIA FORMATIVA */
+
+    .categorias__grid {
+        display: grid;  
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .cat-uno {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+
+    .imag-uno {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        
+    }
+
+    .cat-dos{
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+
+    .imag-dos {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+
+    .cat-tres {
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+    }
+
+    .imag-tres {
+        grid-row: 4 / 5;
+        grid-column: 3 / 4;
+    }
+
+    .cat-cuatro {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+    }
+
+    .imag-cuatro {
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+    }
+
+    /* CATEGORIA LIGA */
+
+    .categorias__grid--liga-imagen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: 100px 220px 300px !important; 
+        column-gap: 1rem;
+    }
+
+    .categorias_flex--liga-texto{
+        display: none !important;
+    }
+
+    .femenino{
+        display: block !important;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 2 / 3 !important;
+        grid-row: 1 / 2 !important;
+        
+    }
+
+    .masculino{
+        display: block !important;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .lista-uno{
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+    }
+
+    .imagen-1 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .lista-dos {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .imagen-2 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+
+
+   /**********GALDER*********/
+   .foto_contacto img {
+        scale: 55%;
+   }
+   .contacto {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: center;
+   }
+    .form_contacto {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+   }
+   .sobre_nosotros {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+   }
+   .mapa {
+    scale: 75%;
+   }
+
+   /* ********ANNA********* */
+/* Tablet (768px) styles */
+
+    .noticias {
+      display: flex;
+      flex-direction: column;
+    }
+    .one, .two, .three, .four {
+      width: 100%;
+    }
+  
+
+    .mainhistoria {
+       height: 100%; 
+    }
+
+    .cartel img {
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .direccion{
+        display: none;
+    }
+
+    
+
+   .imagenIndex img{
+    
+    height: 10rem;
+   }
+
+   .textoIndexI{
+    display: flex;
+    
+   }
+.mainIndex{
+    
+    justify-content: space-around;
+}
+
+    /**  CATEGORIAS DAVID**/
+
+    /* CATEGORIA FORMATIVA */
+
+    .categorias__grid {
+        display: grid;  
+        grid-template-columns: repeat(1, 500px) !important; 
+        grid-template-rows:  repeat(8, 3fr); 
+        
+    }
+
+    .categorias__grid--imagen img {
+        width: 500px !important;
+        height: 250px !important;;
+    }
+
+    .cat-uno {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .imag-uno {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3; 
+        
+        grid-column-start: 1;
+        grid-column: 1 / 2;
+    }
+
+    .cat-dos{
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+
+    .imag-dos {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+    }
+
+    .cat-tres {
+        grid-row: 5 / 6;
+        grid-column: 1 / 2;
+    }
+
+    .imag-tres {
+        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+    }
+
+    .cat-cuatro {
+        grid-row: 7 / 8;
+        grid-column: 1 / 2;
+    }
+
+    .imag-cuatro {
+        grid-row: 8 / 9;
+        grid-column: 1 / 2;
+    }
+
+    .categorias__grid--texto {
+        text-align: center;
+        background-color: #F3CD06;
+        padding-bottom: 2rem;
+        text-transform: uppercase;
+    }
+
+    .contenedor__categorias h1{
+        padding: 0;
+    }
+
+
+    /* CATEGORIA LIGA */
+
+    
+    .categorias__grid--liga-imagen {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: min-content !important; 
+    }
+
+    .categorias__grid--liga-imagen img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .categorias__grid--liga-imagen 
+    .masculino .femenino 
+    .imagen-1 .imagen-2 {
+        height: fit-content;
+    }
+
+    .categorias_flex--liga-texto{
+        display: none !important;
+    }
+
+    .femenino{
+        width: 100%;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 1 / 3 !important;
+        grid-row: 3 / 4 !important;
+    }
+    
+
+    .masculino{
+        width: 100%;
+        background-color: #F3CD06;
+        font-size: 1.2rem;
+        padding: 1rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .lista-uno{
+        display: none;
+    }
+
+    .imagen-1 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .lista-dos {
+        display: none;
+    }
+
+    .imagen-2 {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        width: 100%;
+    }
+
+/**********GALDER*********/
+.foto_contacto img {
+    display: none;
+}
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+}
+.form_contacto {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.sobre_nosotros .mapa {
+    scale: 75%;
+}
+.sobre_nosotros {
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+/* ********ANNA******** */
+/* Mobile (480px) styles */
+
+    .one, .two, .three, .four  {
+      scale: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+   
+  
+  
+    .mainhistoria{
+        height: 100%;
+    }
+   
+
+
+    .abrirMenu, .cerrarMenu{
+    display: block;
+
+}
+
+/* .barraNavegacion{
+    display: none;
+} */
+
+    .barraNavegacion{
+        
+        height: 30rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      /*   border: solid; */
+        background-color: #F3CD06;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1000;
+    }
+
+    .barraNavegacion.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .textoIndexI{
+    
+        /* border: solid yellow; */
+        width: 45%;
+        padding: 0 1rem 0 2rem;
+        font-size:large;
+        
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  CATEGORIAS DAVID**/
+
+/* CATEGORIA FORMATIVA */
+.contenedor__categorias {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias__grid {
+    display: grid;  
+    grid-template-columns: repeat(4, 20fr);
+    grid-template-rows: 80px 250px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.categorias__grid--texto {
+    text-align: center;
+    background-color: #F3CD06;
+    border-radius: 0.5rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.categorias__grid--imagen img{
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+
+/* CATEGORIA LIGA */
+
+
+.contenedor__categorias h1{
+    padding: 0;
+}
+
+.masculino {
+    display: none;
+}
+.femenino {
+    display: none;
+}
+
+.categorias_flex--liga-texto {
+    width: 100%;
+    display: flex;  
+    justify-content: space-evenly;
+    margin: .5rem auto;
+    height: 7rem;
+}
+
+.categorias__grid--liga-imagen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 1rem;
+}
+
+.categoria__grid--lista {
+    font-size: 1.2rem;
+    color: black;
+    line-height: 0.5rem;
+    text-align: center;
+}
+
+
+.categorias__flex--texto-liga {
+    background-color: #F3CD06;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    width: 15%;
+    height: 4rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+}
+
+.categorias__grid--liga-imagen img{
+    width: 20rem;
+    height: 18rem;
+}
+
+.categorias__grid--imagen-liga img{
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sobre_nosotros {
+    min-height: 28rem;
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.mapa {
+    /* border: 2px solid rgb(141, 25, 25); */
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.direccion2 {
+    /* border: 2px solid rgb(29, 213, 22); */
+    width: 20%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    min-width: 280px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
+}
+
+.directiva {
+    /* border: 2px solid rgb(57, 59, 212); */
+    width: 20%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.150) 3px 3px;
+    min-width: 280px;
+    /* box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.15); */
+    }
+
+.botonHome:hover {
+    transform:rotate(360deg);
+    transition-duration: 1s;
+}
+
+.foto_contacto img:hover {
+    transform: scale(117%);
+    /* transition-duration: 500ms; */
+    box-shadow: rgba(0, 0, 0, 0.350) 32px 32px;
+}
+
+.redesSociales div a i:hover{
+    transform: scale(150%);
+    transition-duration: 300ms;
+}
+
+input#name {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input#mail {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input#phone {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+textarea#message {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

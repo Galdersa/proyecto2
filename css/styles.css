@@ -3,8 +3,7 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
-  }
-  
+  }  
 
 * {
     font-family: 'Titillium Web', sans-serif;
